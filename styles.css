@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  #bingo-card {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(6, 60px);
+    gap: 5px;
+  }
+  
+  #bingo-card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #bingo-card div.header {
+    background-color: #ddd;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
